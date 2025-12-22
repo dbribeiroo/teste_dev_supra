@@ -1,4 +1,4 @@
-### QR Code Studio - Teste para desenvolvedor | Supranet
+# QR Code Studio - Teste para desenvolvedor | Supranet
 
 
 Este documento contém um assessment técnico para avaliar conhecimentos técnicos para a vaga de desenvolvedor da Supranet. 
@@ -6,7 +6,11 @@ Este documento contém um assessment técnico para avaliar conhecimentos técnic
 
 Leia instrucoes.md para compreender quais são os conceitos fundamentais para este projeto. 
 
-# Observações
+## Observações
 * Tudo que é necessário para rodar um ambiente de desenvolvimento está neste repositório.
 * Faça um fork ou clone o repositório para trabalhar. 
 * Não é necessário fazer deploy para qualquer tipo de ambiente de produção. 
+
+## Instruções
+* Todas as instruções estão no arquivo instrucoes.md
+* No diretório do repositório, rode `docker compose up`. 
