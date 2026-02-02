@@ -1,16 +1,25 @@
 # QR Code Studio - Teste para desenvolvedor | Supranet
 
+Aplicação desenvolvida em **Nuxt 4** + **TypeScript** + **Bun** para geração de QR Codes profissionais.
 
-Este documento contém um assessment técnico para avaliar conhecimentos técnicos para a vaga de desenvolvedor da Supranet. 
+## 🚀 Tecnologias Utilizadas
 
+- **Nuxt 4** (Compatibilidade via `future` flags): Framework web moderno.
+- **TypeScript**: Para tipagem estática e segurança do código.
+- **Bun**: Runtime e gerenciador de pacotes de alta performance.
+- **TailwindCSS**: Para estilização rápida e responsiva.
+- **Docker**: Para containerização e deploy reprodutível (Multi-stage build).
+- **API goQR.me**: Integração externa para geração das imagens.
 
-Leia instrucoes.md para compreender quais são os conceitos fundamentais para este projeto. 
+## 📋 Pré-requisitos
 
-## Observações
-* Tudo que é necessário para rodar um ambiente de desenvolvimento está neste repositório.
-* Faça um fork ou clone o repositório para trabalhar. 
-* Não é necessário fazer deploy para qualquer tipo de ambiente de produção. 
+Para rodar este projeto, você precisa apenas de:
+- [Docker](https://www.docker.com/) instalado e rodando.
 
-## Instruções
-* Todas as instruções estão no arquivo instrucoes.md
-* No diretório do repositório, rode `docker compose up`. 
+## 🛠️ Como Rodar (Via Docker)
+
+A avaliação deve ser executada via Docker para garantir o ambiente isolado. Siga os passos abaixo no terminal:
+
+1. **Construir a imagem:**
+   ```bash
+   docker build -t qr-code-studio .
