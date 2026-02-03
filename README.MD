@@ -22,4 +22,4 @@ A avaliação deve ser executada via Docker para garantir o ambiente isolado. Si
 
 1. **Construir a imagem:**
    ```bash
-   docker build -t qr-code-studio .
+   docker compose up .
